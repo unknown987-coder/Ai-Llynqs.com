@@ -1,0 +1,46 @@
+.sp{position:relative;min-height:100vh;background:#05060b;color:#f7f7fb;font-family:"DM Sans",sans-serif;overflow:hidden}
+.sp *{box-sizing:border-box}.sp a{color:inherit;text-decoration:none}.sp h1,.sp h2,.sp h3,.sp p{margin:0}
+.sp-bg{position:fixed;inset:0;pointer-events:none}.sp-bg span{position:absolute;border-radius:50%;filter:blur(120px)}
+.sp-bg span:first-child{width:520px;height:520px;top:-160px;right:-120px;background:rgba(105,80,255,.25)}.sp-bg span:last-child{width:440px;height:440px;bottom:-160px;left:-140px;background:rgba(40,170,255,.13)}
+.sp-main{position:relative;z-index:2;width:min(1240px,100%);margin:0 auto;padding:150px 24px 20px}
+.sp em{font-style:italic;background:linear-gradient(120deg,#6fd0ff,#8d78ff 55%,#d3a6ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sp h1,.sp h2{font-family:"Playfair Display",serif;font-weight:600;letter-spacing:-.02em}
+.sp-kick{display:block;font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:#8a8ba0;margin-bottom:16px}
+.sp-hero{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center;padding-bottom:70px}
+.sp-crumb{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#7c7d92;margin-bottom:22px}.sp-crumb a{color:#a99dff}
+.sp-hero h1{font-size:clamp(38px,5.2vw,68px);line-height:1.05;margin-bottom:22px}
+.sp-tag{font-family:"Playfair Display",serif;font-style:italic;font-size:clamp(20px,2.4vw,27px);color:#cfc6ff;margin-bottom:18px;line-height:1.4}
+.sp-intro{max-width:560px;font-size:16px;line-height:1.8;color:#8e8fa1}
+.sp-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+.sp-btn{display:inline-flex;padding:16px 26px;border-radius:16px;font-size:11.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;transition:.3s}.sp-btn:hover{transform:translateY(-3px)}
+.sp-solid{color:#08090d!important;background:linear-gradient(120deg,#bfeaff,#c9bcff 55%,#ecd3ff)}.sp-solid:hover{box-shadow:0 16px 44px rgba(130,110,255,.4)}
+.sp-ghost{border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.03)}
+.sp-art{aspect-ratio:16/11;border-radius:28px;border:1px solid rgba(255,255,255,.1);overflow:hidden;background:radial-gradient(circle at 80% 0,rgba(110,85,255,.3),transparent 60%),#0a0b16;box-shadow:0 40px 100px rgba(0,0,0,.4)}
+.sp-art svg,.sp-mini svg,.sp-ovart svg{width:100%;height:100%;display:block}
+.sp svg text{font:600 11px "DM Sans",sans-serif}.sp svg .flow{stroke-dasharray:5 5;animation:sp-dash 1.4s linear infinite}
+.sp-sec{padding:70px 0 10px}.sp-sec h2{font-size:clamp(32px,4vw,50px);line-height:1.1;margin-bottom:38px}
+.sp-grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.sp-card{padding:28px 24px 30px;border-radius:22px;border:1px solid rgba(255,255,255,.1);background:linear-gradient(150deg,rgba(255,255,255,.045),rgba(255,255,255,.01));transition:.35s}
+.sp-card:hover{transform:translateY(-6px);border-color:rgba(130,110,255,.5)}
+.sp-card b,.sp-steps b{font-size:11px;letter-spacing:2px;color:#8d78ff}
+.sp-card h3{font-family:"Playfair Display",serif;font-size:22px;margin:34px 0 10px}.sp-card p,.sp-steps p{font-size:13.5px;line-height:1.7;color:#8b8c9e}
+.sp-for{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:30px}.sp-for span{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#6f7086;margin-right:8px}
+.sp-for i{font-style:normal;padding:9px 17px;border-radius:30px;border:1px solid rgba(160,140,255,.3);background:rgba(110,90,255,.1);font-size:13px;color:#cfc6ff}
+.sp-steps{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid rgba(255,255,255,.1);border-left:1px solid rgba(255,255,255,.1)}
+.sp-steps>div{padding:30px 26px 36px;border-right:1px solid rgba(255,255,255,.1);border-bottom:1px solid rgba(255,255,255,.1)}
+.sp-steps h3{font-family:"Playfair Display",serif;font-size:24px;margin:38px 0 10px}
+.sp-more,.sp-ov{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.sp-mini{display:block;padding:14px 14px 22px;border-radius:22px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.025);transition:.35s}.sp-mini:hover,.sp-ovcard:hover{transform:translateY(-6px);border-color:rgba(130,110,255,.5)}
+.sp-mini>div{aspect-ratio:16/10;border-radius:14px;overflow:hidden;background:#0a0b16;margin-bottom:16px}
+.sp-mini h3{font-size:18px;font-weight:600;padding:0 8px}.sp-mini span,.sp-ovbody span{display:inline-block;margin:8px 8px 0;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#a99dff}
+.sp-cta{margin:90px 0 30px;padding:70px 30px;text-align:center;border-radius:32px;border:1px solid rgba(255,255,255,.1);background:radial-gradient(circle at 50% 0,rgba(110,85,255,.28),transparent 65%),rgba(255,255,255,.02)}
+.sp-cta h2{font-size:clamp(32px,4.4vw,56px);margin-bottom:16px}.sp-cta p{color:#8e8fa1;margin-bottom:30px}
+.sp-head{text-align:center;max-width:840px;margin:0 auto 30px}.sp-head h1{font-size:clamp(40px,6vw,76px);line-height:1.05;margin-bottom:22px}.sp-head .sp-intro{margin:0 auto}
+.sp-group{padding-top:50px}.sp-gh{display:flex;align-items:center;gap:16px;margin-bottom:26px}.sp-gh h2{font-size:30px;margin:0}.sp-gh small{font-size:12px;color:#6f7086}
+.sp-gh>span{width:46px;height:46px;border-radius:14px;display:grid;place-items:center;font-size:19px;color:#d2c8ff;border:1px solid rgba(160,140,255,.3);background:rgba(110,90,255,.12)}
+.sp-ovcard{display:block;border-radius:24px;overflow:hidden;border:1px solid rgba(255,255,255,.1);background:linear-gradient(150deg,rgba(255,255,255,.04),rgba(255,255,255,.01));transition:.35s}
+.sp-ovart{aspect-ratio:16/10;background:radial-gradient(circle at 80% 0,rgba(110,85,255,.28),transparent 60%),#0a0b16;border-bottom:1px solid rgba(255,255,255,.08)}
+.sp-ovbody{padding:22px 24px 26px}.sp-ovbody h3{font-family:"Playfair Display",serif;font-size:23px;margin-bottom:8px}.sp-ovbody p{font-size:13.5px;line-height:1.65;color:#8b8c9e}.sp-ovbody span{margin:14px 0 0}
+@keyframes sp-dash{to{stroke-dashoffset:-20}}
+@media(max-width:1000px){.sp-hero{grid-template-columns:1fr}.sp-grid4,.sp-steps{grid-template-columns:1fr 1fr}.sp-more,.sp-ov{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.sp-main{padding-top:120px}.sp-grid4,.sp-steps,.sp-more,.sp-ov{grid-template-columns:1fr}}
